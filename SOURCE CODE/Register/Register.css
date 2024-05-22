@@ -1,0 +1,124 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family:  Arial;
+    user-select: none;    
+}
+body{
+    overflow-x: hidden;
+    background-image:linear-gradient(to top,rgba(199, 203, 201, 0.52),#1c691c),url("../assets/back1.jpeg");
+    background-repeat: no-repeat;
+    background-position:center;
+    background-attachment:fixed;
+    background-size:  cover;
+    display: flex;
+    /* border: 2px solid red; */
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+.loginpage{
+display: flex;
+justify-content: center;
+align-items: center;
+/* border: 2px solid red; */
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    border: 2px solid white;
+    width: 500px;
+    height: 500px;
+    padding: 20px;
+    background: white;
+}
+label{
+    /* margin:7px 0px 5px 5px; */
+    line-height: 1;
+    color: grey;
+    font-weight: 300;
+    padding: 10px 0px 2px 0px;
+}
+input[type="text"]{
+    outline: none;
+    border: none;
+    background: transparent;
+    border-bottom: 2px solid #53bd53;
+    padding: 5px;
+    font-size: 15px;
+}
+input[type="password"]{
+    outline: none;
+    border: none;
+    background: transparent;
+    border-bottom: 2px solid #53bd53;
+    padding: 5px;
+    font-size: 15px;
+}
+.btn{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+button{
+    width: 300px;
+    height: 35px;
+    background:#53bd53;
+    color:white;
+    border-radius: 5px;
+    border:1px solid #53bd53;
+    cursor: pointer;
+    transition: 0.3s all ease-in-out;
+    margin-top: 10px;
+
+}
+.icon{
+    position: relative;
+    top: -25px;
+    left: 435px;
+    color: grey;
+    cursor:pointer;
+    font-size: 20px;
+}
+.btn #para2{
+margin-top: 10px;
+font-size: 14px;
+color: grey;
+}
+.btn span{
+    color:blue
+}
+
+.loginpageside{
+    position: relative;
+    display: inline-block;
+    width: 30%;
+    height: 500px;
+    background-color: #53bd53;
+}
+#par1{
+    color: white;
+    position: absolute;
+    top: 43px;
+    left: 10;
+    left: 35px;
+    font-size: 28px;
+    font-weight: 600;
+    display: block;
+}
+#par2{
+    display: block;
+    position: relative;
+    color: #dbdbdb;
+    left: 35px;
+    line-height: 150%;
+    top: 95px;
+    font-weight: 600;
+}
+.loginpageside img{
+    width: 300px;
+    position: relative;
+    top: 200px;
+    left: 60px;
+}

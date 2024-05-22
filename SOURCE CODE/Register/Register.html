@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="stylesheet" href="./Register.css">
+    <link rel="stylesheet" href="https://kit-pro.fontawesome.com/releases/v5.15.3/css/pro.min.css">
+    <link rel="icon" href="./assets/logo flipkart.png">
+    <script src="https://kit.fontawesome.com/8775457e96.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</head>
+
+<body class="body">
+            <div class="loginpage">
+                <form class="form">
+                    <label for="name" id="mail label">Name</label>
+                    <input type="text" id="name" name="my gamil" placeholder="" required>
+                    <div class="icon"><i class="fa-solid fa-user"></i></div>
+
+                    <label for="email" id="pass label">Email</label>
+                    <input type="text" id="email" name="my Password" placeholder="" required>
+                    <div class="icon"> <i class="fa-solid fa-envelope"></i></div>
+
+                    <label for="UserName" id="u-name label">User ID</label>
+                    <input type="text" id="UserName" name="my Password" placeholder="" required>
+                    <div class="icon"><i class="fa-solid fa-user"></i></div>
+
+                    <label for="Password" id="u-name label">Password</label>
+                    <input type="password" id="Password" name="my Password" placeholder="" required>
+                    <div class="icon" onclick="showHide()"><i id="icons" class="fa-solid fa-lock"></i></div>
+
+                    <label for="C-Password" id="u-name label">Confirm Passowrd</label>
+                    <input type="password" id="C-Password" name="my Password" placeholder="" required>
+                    <div class="icon" onclick="ConfirmPassword()"><i id="icon" class="fa-solid fa-lock"></i></div>
+                    
+                    <div class="btn">
+                        <button type="button" value="button" onclick="getval2() "> Submit</button></a>
+                    </div>
+                    <div class="btn">
+                        <a href="../Login/login.html"><p id="para2">After Creating Account? <span>Login</span></p></a>
+                    </div>
+                </div>
+                <div class="loginpageside">
+                    <p id="par1">Register</p>
+                    <p1 id="par2">Get to your Orders,<br>Whislist and Recommendations</p1>
+                    <img src="../assets/logo1.png" alt="error">
+                </div>
+            </div>
+            
+</body>
+<script src="../scripts/script.js"></script>
+
+</html>
